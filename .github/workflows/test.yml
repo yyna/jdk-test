@@ -18,7 +18,7 @@ jobs:
       - run: java HelloWorld
 
       - uses: DeLaGuardo/setup-clojure@3.2
-          with:
+        with:
           cli: '1.10.3.855'
 
       - run: clojure -M src/hello_world.clj
